@@ -1,4 +1,4 @@
-# 🚀 Developer Profile Site
+# 🚀 Developer Tiago Site
 
 Site de perfil profissional moderno para Analista de Dados e Desenvolvedor, com foco em Automações, RPA e Agentes de IA.
 
@@ -149,4 +149,4 @@ Contribuições, issues e feature requests são bem-vindos!
 
 ---
 
-**Desenvolvido com ♥ por Developer**
+**Desenvolvido com ♥ por Tiago**
