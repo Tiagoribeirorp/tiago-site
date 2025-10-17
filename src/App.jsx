@@ -455,7 +455,7 @@ function App() {
                 <p className="text-2xl font-bold text-purple-400 mb-6 break-all">
                   seu.email@exemplo.com
                 </p>
-                <Button className="bg-purple-600 hover:bg-purple-700 text-white font-mono w-full">
+                <Button onClick={() => window.location.href = 'mailto:seu.email@exemplo.com'} className="bg-purple-600 hover:bg-purple-700 text-white font-mono w-full">
                   <Mail size={20} className="mr-2" />
                   Enviar Email
                 </Button>
