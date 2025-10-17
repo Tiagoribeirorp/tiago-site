@@ -416,15 +416,15 @@ function App() {
               </h3>
               <div className="space-y-4">
                 {[
-                  { icon: Github, label: 'GitHub', value: 'github.com/Tiagoribeirorp', color: 'purple' },
-                  { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/analista-tiago-ribeiro/', color: 'blue' },
-                  { icon: Mail, label: 'Email', value: 'tiagoribeirodev@gmail.com', color: 'pink' }
+                  { icon: Github, label: 'GitHub', value: 'github.com/Tiagoribeirorp', color: 'purple',href: 'https://github.com/Tiagoribeirorp' },
+                  { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/analista-tiago-ribeiro/', color: 'blue', href: 'https://linkedin.com/in/analista-tiago-ribeiro/' },
+                  { icon: Mail, label: 'Email', value: 'tiagoribeirodev@gmail.com', color: 'pink',href: 'mailto:tiagoribeirodev@gmail.com'  }
                 ].map((item) => {
                   const Icon = item.icon
                   return (
                     <motion.a
                       key={item.label}
-                      href="#"
+                      href={item.href}
                       whileHover={{ x: 10 }}
                       className="flex items-center gap-4 p-4 bg-slate-900/50 backdrop-blur-sm border border-purple-500/20 rounded-xl hover:border-purple-500/50 transition-all group"
                     >
@@ -483,10 +483,10 @@ function App() {
           <p className="text-slate-400 font-mono text-sm">
             <span className="text-green-400">$</span> Made with{' '}
             <span className="text-pink-400">♥</span> by{' '}
-            <span className="text-purple-400">Developer</span>
+            <span className="text-purple-400">Tiago "TygaZ" Ribeiro</span>
           </p>
           <p className="text-slate-500 text-xs mt-2 font-mono">
-            © 2024 • All rights reserved
+            © 2025 • All rights reserved
           </p>
         </div>
       </footer>
