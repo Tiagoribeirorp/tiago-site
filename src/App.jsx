@@ -416,7 +416,7 @@ function App() {
               </h3>
               <div className="space-y-4">
                 {[
-                  { icon: Github, label: 'GitHub', value: 'github.com/seuusuario', color: 'purple' },
+                  { icon: Github, label: 'GitHub', value: 'github.com/Tiagoribeirorp', color: 'purple' },
                   { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/analista-tiago-ribeiro/', color: 'blue' },
                   { icon: Mail, label: 'Email', value: 'tiagoribeirodev@gmail.com', color: 'pink' }
                 ].map((item) => {
