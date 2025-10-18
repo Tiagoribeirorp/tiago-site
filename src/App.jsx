@@ -25,7 +25,7 @@ function App() {
   }
 
   const skills = {
-    languages: ['Python', 'JavaScript', 'SQL','PostgreSQL',],
+    languages: ['Python', 'JavaScript', 'SQL','PostgreSQL'],
     frameworks: ['Django', 'FastAPI', 'React', 'Node.js'],
     automation: ['Zapier', 'Make', 'N8N', 'RPA'],
     specialties: ['Data Analysis', 'API Development', 'AI Agents', 'Process Automation']
@@ -247,7 +247,7 @@ function App() {
               <p>
                 Ao longo da minha carreira, desenvolvi expertise em{' '}
                 <span className="text-purple-400 font-semibold">análise de dados</span>,{' '}
-                <span className="text-purple-400 font-semibold">desenvolvimento de APIs</span>,{' '}
+                <span className="text-purple-400 font-semibold">desenvolvimento de APIs e sites</span>,{' '}
                 <span className="text-purple-400 font-semibold">automação RPA</span> e criação de{' '}
                 <span className="text-purple-400 font-semibold">agentes de IA</span> que transformam a forma como as empresas operam.
               </p>
