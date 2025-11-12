@@ -442,7 +442,7 @@ function App() {
             </motion.div>
 
             {/* Email */}
-            <motion.div
+         {/*     <motion.div
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -473,7 +473,7 @@ function App() {
               contact
               <span className="text-purple-400">&gt;</span>
             </h2>
-          </motion.div>
+          </motion.div> */}
         </div>
       </section>
 
