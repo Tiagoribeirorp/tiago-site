@@ -35,7 +35,7 @@ function App() {
     {
       name: 'automated_dashboard',
       title: 'Automated Data Dashboard',
-      description: 'Real-time analytics dashboard with automated data pipelines and AI-powered insights for business intelligence.',
+      description: 'Dashboard automatizado em Real-Time.',
       role: 'Full Stack Developer, Data Analyst',
       tech: ['Python', 'FastAPI', 'React', 'PostgreSQL', 'N8N'],
       icon: Database
@@ -43,7 +43,7 @@ function App() {
     {
       name: 'ai_agent_system',
       title: 'AI Agent System',
-      description: 'Intelligent automation system using AI agents to handle customer inquiries and process workflows autonomously.',
+      description: 'Criação de agentes autonomos utilizando IA para tarefas específicas, aumentando a eficiência operacional em 50%.',
       role: 'AI Developer, Automation Specialist',
       tech: ['Python', 'OpenAI API', 'LangChain', 'FastAPI', 'React'],
       icon: Bot
@@ -51,7 +51,7 @@ function App() {
     {
       name: 'rpa_workflow',
       title: 'RPA Workflow Engine',
-      description: 'Robust RPA solution for automating repetitive business processes, reducing manual work by 80%.',
+      description: 'Sistemas de robustos de RPA, reduzindo o trabalho operacional.',
       role: 'RPA Developer, Process Analyst',
       tech: ['Python', 'Selenium', 'Zapier', 'Make', 'Django'],
       icon: Workflow
@@ -59,7 +59,7 @@ function App() {
     {
       name: 'api_integration',
       title: 'Multi-Platform API Integration',
-      description: 'Seamless integration platform connecting multiple services and APIs for unified data management.',
+      description: 'Integração APi para aplicações.',
       role: 'Backend Developer, Integration Specialist',
       tech: ['Python', 'FastAPI', 'Django', 'REST', 'GraphQL'],
       icon: Code2
